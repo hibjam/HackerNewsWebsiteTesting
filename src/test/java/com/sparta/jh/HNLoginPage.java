@@ -33,8 +33,6 @@ public class HNLoginPage extends HNWebPage  {
     }
 
     public boolean unknownUser(){
-//        WebElement firstResult = new WebDriverWait(webDriver, Duration.ofSeconds(10))
-//                .until(ExpectedConditions.elementToBeClickable(By.linkText("Forgot your password?")));
 
         try {
             Thread.sleep(500);
