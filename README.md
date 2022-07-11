@@ -6,6 +6,6 @@ It showcases my use of Selenium to test the HackerNews website and implements a 
 Please note that this project is still in development, and as such many of the classes will not contain methods, however I beleive it demonstrates a concrete fundamental understanding of Selenium and Cucumber. 
 
 
-The classes containing with the most code are the HNLoginPage, the HNPastPage, the HNHomePage and the HNWebPage.
+The classes containing with the most code are the HNLoginPage, the HNPastPage and also the HNHomePage and the HNWebPage which are located in the pages package.
 
 If you would lie to view a complete project which covers the fundamentals of Java. Please see my [Sort Manager Project](https://github.com/hibjam/SortManager).
