@@ -34,20 +34,12 @@ public class HNLoginPage extends HNWebPage  {
 
     public boolean unknownUser(){
 
-        try {
-            Thread.sleep(500);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+        webDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
         webDriver.findElement(By.linkText("Forgot your password?")).click();
         webDriver.findElement(By.cssSelector("body > form > input[type=text]:nth-child(3)"))
                 .sendKeys("thisisnotgoingtobeavalidemailandifitisIhopetheyrehavinganiceday@gmail.com");
 
-        try {
-            Thread.sleep(500);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+       webDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
 
        webDriver.findElement(By.cssSelector("body > form > input[type=submit]:nth-child(6)")).click();
 
